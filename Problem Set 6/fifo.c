@@ -48,3 +48,5 @@ unsigned long fifo_rd(struct fifo *f) {
 	sem_inc(f->semwrite);
 	return 0;
 }
+
+
